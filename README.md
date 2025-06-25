@@ -1,4 +1,7 @@
-![image](https://github.com/user-attachments/assets/2c66c65f-efde-4595-8766-95956ed9254c)![image](https://github.com/user-attachments/assets/2c66c65f-efde-4595-8766-95956ed9254c)# 📅 EventPlanner
+![image](https://github.com/user-attachments/assets/1a125283-e50f-4a1e-a098-fbe105405732)
+![image](https://github.com/user-attachments/assets/093d2e76-9c8c-40ba-ad9e-daa128e5eb91)
+
+ 📅 EventPlanner
 
 EventPlanner is a full-stack web application that allows users to create, manage, and edit events and assign them to different groups. It features a modern UI, real-time form validation, and persistent data storage.
 ---
@@ -57,5 +60,6 @@ U can use Xampp (PhpMyAdmin)
 cd frontend
 npm install
 npm start
+
 
 
