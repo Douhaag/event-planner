@@ -27,7 +27,7 @@ event-planner/
 │ ├── src/main/java/com/example/eventplanner
 │ ├── src/main/resources/application.properties
 │ └── pom.xml
-├── eventplanner (Frontend)/ # React application
+├── Frontend/ # React application
 │ ├── public/
 │ ├── src/
 │ │ ├── components/
