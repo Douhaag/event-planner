@@ -61,9 +61,5 @@ cd frontend
 npm install
 npm start
 
-![image](https://github.com/user-attachments/assets/8e455b3d-916c-45b1-b6f1-10db7cce4a4e) ![image](https://github.com/user-attachments/assets/5bcdefa9-0fe8-495b-8b3f-0cbc687f8c7a)![image](https://github.com/user-attachments/assets/8e455b3d-916c-45b1-b6f1-10db7cce4a4e)
-![Uploading image.png…]()
-
-![image](https://github.com/user-attachments/assets/5bcdefa9-0fe8-495b-8b3f-0cbc687f8c7a)
 
 
