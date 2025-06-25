@@ -1,0 +1,11 @@
+# .gitignore
+
+# Node (React)
+node_modules/
+build/
+dist/
+.env
+
+# Java (Spring Boot)
+target/
+*.log
