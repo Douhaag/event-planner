@@ -1,0 +1,221 @@
+
+.event-list-container {
+    font-family: 'Arial', sans-serif;
+    max-width: 900px; 
+    margin: 40px auto;
+    padding: 30px; 
+    background-color: #EBD6FB; 
+    border-radius: 15px; 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15); 
+  }
+  
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #FCD8CD; 
+    padding-bottom: 20px;
+  }
+  
+  .header-section h2 {
+    color: #687FE5; 
+    font-size: 2.5em; 
+    margin: 0;
+    font-weight: 700; 
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-section .header-icon {
+    margin-right: 12px;
+    font-size: 1.2em;
+  }
+  
+  .add-event-button,
+  .edit-button,
+  .delete-button {
+    padding: 12px 25px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer;
+    font-size: 1.1em; 
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .add-event-button {
+    background-color: #687FE5; 
+  }
+  
+  .add-event-button:hover {
+    background-color: #5a66c7; 
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .edit-button {
+    background-color: #FCD8CD; 
+    margin-right: 15px; 
+    color: #687FE5; 
+  }
+  
+  .edit-button:hover {
+    background-color: #fbb3a2; 
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .button-icon {
+    margin-right: 8px;
+    font-size: 1em;
+  }
+  
+  
+  .event-items-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+  }
+  
+  .event-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    background-color: #ffffff; 
+    border: 1px solid #FEEBF6; 
+    border-radius: 12px; 
+    margin-bottom: 20px; 
+    padding: 20px 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .event-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .event-details {
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .event-title {
+    color: #687FE5; 
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .event-date,
+  .event-location {
+    color: #495057;
+    font-size: 1.05em;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .event-icon {
+    margin-right: 8px;
+    font-size: 1.1em;
+    color: #687FE5; 
+  }
+  
+  .event-actions {
+    display: flex;
+    gap: 15px; 
+    width: 100%; 
+    justify-content: flex-end; 
+  }
+  
+  .no-events-message {
+    text-align: center;
+    color: #6c757d;
+    font-size: 1.2em;
+    padding: 40px; 
+    background-color: #FEEBF6; 
+    border-radius: 12px;
+    margin-top: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .message-icon {
+    margin-right: 15px;
+    font-size: 1.5em;
+    color: #687FE5;
+  }
+  
+  @media (max-width: 768px) {
+    .event-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .event-actions {
+      margin-top: 15px;
+      justify-content: flex-start;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .header-section {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .header-section h2 {
+      margin-bottom: 15px;
+    }
+    .add-event-button {
+      width: 100%;
+    }
+    .event-actions {
+      flex-direction: column;
+      gap: 10px;
+    }
+    .edit-button, .delete-button {
+      width: 100%;
+      margin-right: 0;
+    }
+    .event-groups {
+        margin-top: 6px;
+        font-size: 0.9rem;
+        color: #555;
+      }
+      
+      .groups-label {
+        font-weight: bold;
+        margin-right: 5px;
+      }
+      
+      .group-name {
+        background-color: #e0e0e0;
+        border-radius: 12px;
+        padding: 2px 8px;
+        margin-right: 5px;
+        display: inline-block;
+      }
+      
+  }

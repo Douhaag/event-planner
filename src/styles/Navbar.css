@@ -1,0 +1,79 @@
+
+.navbar {
+    background-color: #687FE5; 
+    padding: 15px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .navbar-brand {
+    color: #FEEBF6;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif; 
+    letter-spacing: 1.5px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.4);
+    transform: scale(1.03);
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 30px; 
+  }
+  
+  .nav-item {
+    color: #FEEBF6; 
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 5px 0;
+    position: relative; 
+    transition: color 0.3s ease;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .nav-item .icon {
+    margin-right: 8px; 
+    font-size: 1.2em; 
+    color: #EBD6FB; 
+  }
+  
+  .nav-item:hover {
+    color: #ffffff;
+  }
+  
+  .nav-item::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #FCD8CD; 
+    transition: width 0.4s ease;
+    -webkit-transition: width 0.4s ease;
+  }
+  
+  .nav-item:hover::after {
+    width: 100%;
+    left: 0;
+    background: #FCD8CD;
+  }
